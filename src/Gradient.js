@@ -429,3 +429,11 @@ class Gradient {
 }
 
 window.Gradient = Gradient;
+
+if (window.jQuery) {
+    jQuery.fn.gradient = function(options = {}) {
+        options.canvas = this.get(0);
+        this._gradient = new Gradient(options);
+        return this;
+    };
+}
