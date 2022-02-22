@@ -1,0 +1,37 @@
+{
+  "name": "@thelevicole/stripe-gradient",
+  "version": "1.0.0",
+  "description": "A reverse engineered, and simplified javascript library to replicate the animated Stripe gradients.",
+  "main": "dist/Gradient.js",
+  "keywords": [
+    "stripe",
+    "gradient",
+    "canvas",
+    "animation"
+  ],
+  "browserslist": [
+    "last 3 version",
+    "> 1%",
+    "ie 11"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thelevicole/stripe-gradient.git"
+  },
+  "author": {
+    "name": "Levi Cole",
+    "email": "dev@thelevicole.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thelevicole/stripe-gradient/issues"
+  },
+  "homepage": "https://thelevicole.com/stripe-gradient/",
+  "devDependencies": {
+    "laravel-mix": "^6.0.43"
+  },
+  "scripts": {
+    "build": "mix --production",
+    "watch": "mix --production -- --watch --progress"
+  }
+}
