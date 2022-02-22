@@ -2,7 +2,7 @@
   "name": "@thelevicole/stripe-gradient",
   "version": "1.0.0",
   "description": "A reverse engineered, and simplified javascript library to replicate the animated Stripe gradients.",
-  "main": "dist/Gradient.js",
+  "main": "dist/stripe-gradient.js",
   "keywords": [
     "stripe",
     "gradient",
@@ -22,7 +22,6 @@
     "name": "Levi Cole",
     "email": "dev@thelevicole.com"
   },
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/thelevicole/stripe-gradient/issues"
   },
