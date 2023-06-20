@@ -51,7 +51,7 @@ void main() {
   }
 
   for (int i = 0; i < u_waveLayers_length; i++) {
-    if (u_active_colors[i + 1] == 1.) {
+    if (u_active_colors[i] == 1.) {
       WaveLayers layer = u_waveLayers[i];
 
       float noise = smoothstep(
